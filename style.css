@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+.container{
+    text-align: center;
+    padding: 20px 20px;
+    font-family: Oswald;
+    background: cornsilk;
+}
+.container h1{
+    font-size: 50px;
+}
+.container p{
+    font-size: 20px;
+}
+.footer{
+    color: white;
+    background: black;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer p{
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    font-family: Oswald;
+}
+button{
+    border-radius: 30px;
+    border: none;
+    padding: 20px 20px;
+    background: linear-gradient(red,gray, blue);
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
